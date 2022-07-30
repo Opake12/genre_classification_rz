@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-30T16:17:47.257533",
+    "startedAt": "2022-07-30T16:17:44.090154",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Opake12/genre_classification_rz.git",
+        "commit": "3a1a14fe1bef365f7ff6dd1fa9e0d51f05a66dfc"
+    },
+    "email": "54717929+Opake12@users.noreply.github.com",
+    "root": "/Users/robertzivkovic/Documents/Opake_Lab/3_Online/2_Udacity/15_MLOps/99_Course_Code/genre_classification_rz",
+    "host": "Roberts-MacBook-Pro-16.local",
+    "username": "robertzivkovic",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/mlflow-bb9afc046e145eded7a81172f0e45ba291ca7b13/bin/python"
+}
