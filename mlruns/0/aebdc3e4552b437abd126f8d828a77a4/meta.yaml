@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/robertzivkovic/Documents/Opake_Lab/3_Online/2_Udacity/15_MLOps/99_Course_Code/genre_classification_rz/mlruns/0/aebdc3e4552b437abd126f8d828a77a4/artifacts
+end_time: 1659172096980
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: aebdc3e4552b437abd126f8d828a77a4
+run_uuid: aebdc3e4552b437abd126f8d828a77a4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1659171977335
+status: 3
+tags: []
+user_id: robertzivkovic
