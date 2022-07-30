@@ -6,5 +6,6 @@ dependencies:
   - requests=2.24.0
   - pip=20.3.3
   - pandas=1.2.3
+  - matplotlib==3.2.2
   - pip:
       - wandb==0.10.21
