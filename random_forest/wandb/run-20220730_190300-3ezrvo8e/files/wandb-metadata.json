@@ -1,0 +1,35 @@
+{
+    "os": "macOS-12.4-arm64-arm-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-07-30T17:03:04.441029",
+    "startedAt": "2022-07-30T17:03:00.944954",
+    "docker": null,
+    "cpu_count": 10,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "data_train.csv:latest",
+        "--model_config",
+        "/Users/robertzivkovic/Documents/Opake_Lab/3_Online/2_Udacity/15_MLOps/99_Course_Code/genre_classification_rz/outputs/2022-07-30/18-52-53/random_forest_config.yml",
+        "--export_artifact",
+        "model_export",
+        "--random_seed",
+        "42",
+        "--val_size",
+        "0.3",
+        "--stratify",
+        "genre"
+    ],
+    "state": "running",
+    "program": "/Users/robertzivkovic/Documents/Opake_Lab/3_Online/2_Udacity/15_MLOps/99_Course_Code/genre_classification_rz/random_forest/run.py",
+    "codePath": "random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/Opake12/genre_classification_rz.git",
+        "commit": "c643216ef222368485f030564d73635413ec4323"
+    },
+    "email": "54717929+Opake12@users.noreply.github.com",
+    "root": "/Users/robertzivkovic/Documents/Opake_Lab/3_Online/2_Udacity/15_MLOps/99_Course_Code/genre_classification_rz",
+    "host": "Roberts-MacBook-Pro-16.local",
+    "username": "robertzivkovic",
+    "executable": "/opt/homebrew/Caskroom/miniforge/base/envs/mlflow-ba87f3291f3711948fa47c2efde1a5f7c82851d0/bin/python"
+}
